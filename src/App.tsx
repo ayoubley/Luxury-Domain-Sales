@@ -17,8 +17,6 @@ import {
   Star,
   Shield,
   CreditCard,
-  ChevronLeft,
-  ChevronRight,
   TrendingUp,
   Award,
   Phone,
@@ -347,12 +345,6 @@ export default function App() {
                       </div>
                     ))}
                   </div>
-                  <button className="absolute -left-16 top-1/2 -translate-y-1/2 w-10 h-10 glass-immersive rounded-full hidden lg:flex items-center justify-center hover:bg-white/10 transition-colors">
-                    <ChevronLeft className="w-5 h-5" />
-                  </button>
-                  <button className="absolute -right-16 top-1/2 -translate-y-1/2 w-10 h-10 glass-immersive rounded-full hidden lg:flex items-center justify-center hover:bg-white/10 transition-colors">
-                    <ChevronRight className="w-5 h-5" />
-                  </button>
                 </div>
               </div>
             </div>
